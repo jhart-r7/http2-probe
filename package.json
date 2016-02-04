@@ -1,0 +1,23 @@
+{
+  "name": "http2-probe",
+  "version": "0.0.1",
+  "description": "a Sonar probe for http/2.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdavis-r7/http2-probe.git"
+  },
+  "author": "scott davis <scott_davis@rapid7.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sdavis-r7/http2-probe/issues"
+  },
+  "homepage": "https://github.com/sdavis-r7/http2-probe#readme",
+  "dependencies": {
+    "http2": "^3.3.2"
+  }
+}
